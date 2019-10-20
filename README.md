@@ -2,10 +2,10 @@
 The Floyd Warshall Algorithm is for solving the All Pairs Shortest Path problem. The problem is to find shortest distances between every pair of vertices in a given edge weighted directed Graph.
 
 Input:
-       graph[][] = { {0,   5,  INF, 10},
-                    {INF,  0,  3,  INF},
-                    {INF, INF, 0,   1},
-                    {INF, INF, INF, 0} }
+       graph[][] = { {0,   5,  INF, 10},                                                                                         
+                    {INF,  0,  3,  INF},                     
+                    {INF, INF, 0,   1},                     
+                    {INF, INF, INF, 0} }            
 which represents the following graph
              10
        (0)------->(3)
